@@ -16,9 +16,11 @@ body {
   background: none;
   box-sizing: border-box;
 }
+
 button {
   cursor: pointer;
 }
+
 .nav {
   background: teal;
   padding: 0.5rem;
@@ -47,6 +49,7 @@ button {
 [data-dropdown] {
   position: relative;
 }
+
 [data-dropdown-menu] {
   position: absolute;
 }
@@ -78,6 +81,7 @@ button {
   border-radius: 0.2rem;
   transition-duration: 400ms;
 }
+
 .dropdown-link:hover {
   background: #cccccc;
 }
@@ -87,6 +91,7 @@ button {
   height: max-content;
   transform: translateX(0);
 }
+
 [data-dropdown-expanded='false'] {
   opacity: 0;
   transform: translateX(-50%);
